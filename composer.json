@@ -1,5 +1,5 @@
 {
-	"name": "laravelium/feed",
+	"name": "bitsnbolts/laravel-feed",
 	"description": "Laravelium Feed package for Laravel.",
 	"homepage": "https://laravelium.com",
 	"keywords": ["laravelium", "laravel", "feed", "generator", "rss", "atom"],
@@ -13,9 +13,9 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/Laravelium/laravel-feed/issues",
-		"source": "https://github.com/Laravelium/laravel-feed",
-		"wiki": "https://github.com/Laravelium/laravel-feed/wiki"
+		"issues": "https://github.com/bitsnbolts/laravel-feed/issues",
+		"source": "https://github.com/bitsnbolts/laravel-feed",
+		"wiki": "https://github.com/bitsnbolts/laravel-feed/wiki"
 	},
 	"require": {
     "php": "^8.1",
