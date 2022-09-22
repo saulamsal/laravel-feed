@@ -6,11 +6,11 @@
 
 ### Changed
 
-- Package name changed from ``roumen/feed`` to ``laravelium/feed`` ([new packagist repo](https://packagist.org/packages/laravelium/feed))
+- Package name changed from ``roumen/feed`` to ``bitsnbolts/feed`` ([new packagist repo](https://packagist.org/packages/bitsnbolts/feed))
 
 ### Added
 
-- Added new [packagist repo](https://packagist.org/packages/laravelium/feed)
+- Added new [packagist repo](https://packagist.org/packages/bitsnbolts/feed)
 - Added new branch for development ``2.11.x-dev``
 - Added new [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) testing with code coverage
 - Added new coding style testing with [StyleCI](https://gitlab.styleci.io/repos/8088383)

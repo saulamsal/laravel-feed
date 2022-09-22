@@ -1,8 +1,8 @@
 {
 	"name": "bitsnbolts/laravel-feed",
-	"description": "Laravelium Feed package for Laravel.",
-	"homepage": "https://laravelium.com",
-	"keywords": ["laravelium", "laravel", "feed", "generator", "rss", "atom"],
+	"description": "Bitsnbolts Feed package for Laravel.",
+	"homepage": "https://bitsnbolts.com",
+	"keywords": ["bitsnbolts", "laravel", "feed", "generator", "rss", "atom"],
 	"license": "MIT",
 	"authors": [
 		{
@@ -29,16 +29,16 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Laravelium\\Feed": "src/"
+			"Bitsnbolts\\Feed": "src/"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Laravelium\\Feed\\FeedServiceProvider"
+				"Bitsnbolts\\Feed\\FeedServiceProvider"
 			],
 			"aliases": {
-        "Feed": "Laravelium\\Feed\\Feed"
+        "Feed": "Bitsnbolts\\Feed\\Feed"
       }
 		}
 	},

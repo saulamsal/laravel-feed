@@ -1,8 +1,8 @@
-<?php namespace Laravelium\Feed\Test;
+<?php namespace Bitsnbolts\Feed\Test;
 
 use Orchestra\Testbench\TestCase as TestCase;
-use Laravelium\Feed\Feed;
-use Laravelium\Feed\FeedServiceProvider;
+use Bitsnbolts\Feed\Feed;
+use Bitsnbolts\Feed\FeedServiceProvider;
 use Carbon\Carbon;
 
 class FeedTest extends TestCase

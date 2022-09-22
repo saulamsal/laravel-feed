@@ -1,11 +1,11 @@
-<?php namespace Laravelium\Feed;
+<?php namespace Bitsnbolts\Feed;
 
 /**
  * Feed generator class for laravel-feed package.
  *
- * @author Rumen Damyanov <r@alfamatter.com>
+ * @author Thijs van en Anker <thijs@bitsnbolts.nl>
  * @version 7.0.1
- * @link https://laravelium.com
+ * @link https://bitsnbolts.nl
  * @license http://opensource.org/licenses/mit-license.php MIT License
  */
 

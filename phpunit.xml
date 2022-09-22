@@ -16,7 +16,7 @@
 	</testsuites>
 	<filter>
 		<whitelist addUncoveredFilesFromWhitelist="true">
-			<directory suffix=".php">./src/Laravelium/Feed/</directory>
+			<directory suffix=".php">./src/Bitsnbolts/Feed/</directory>
 			<exclude>
 				<directory>./tests/</directory>
 			</exclude>
