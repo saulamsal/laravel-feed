@@ -1,47 +1,54 @@
 {
-	"name": "bitsnbolts/laravel-feed",
-	"description": "Bitsnbolts Feed package for Laravel.",
-	"homepage": "https://bitsnbolts.com",
-	"keywords": ["bitsnbolts", "laravel", "feed", "generator", "rss", "atom"],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Thijs van den Anker",
-			"email": "thijs@bitsnbolts.nl",
-			"role": "Developer",
-			"homepage": "https://bitnbolts.nl"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/bitsnbolts/laravel-feed/issues",
-		"source": "https://github.com/bitsnbolts/laravel-feed",
-		"wiki": "https://github.com/bitsnbolts/laravel-feed/wiki"
-	},
-	"require": {
+  "name": "bitsnbolts/laravel-feed",
+  "description": "Bitsnbolts Feed package for Laravel.",
+  "homepage": "https://bitsnbolts.com",
+  "keywords": [
+    "bitsnbolts",
+    "laravel",
+    "feed",
+    "generator",
+    "rss",
+    "atom"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thijs van den Anker",
+      "email": "thijs@bitsnbolts.nl",
+      "role": "Developer",
+      "homepage": "https://bitnbolts.nl"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/bitsnbolts/laravel-feed/issues",
+    "source": "https://github.com/bitsnbolts/laravel-feed",
+    "wiki": "https://github.com/bitsnbolts/laravel-feed/wiki"
+  },
+  "require": {
     "php": "^8.1",
-    "illuminate/support": "^9.0",
-    "illuminate/filesystem": "^9.0"
-	},
-	"require-dev": {
-    "laravel/framework": "^9.0",
-    "phpunit/phpunit": "^9.3",
-		"orchestra/testbench-core": "^6.0"
-	},
-	"autoload": {
-		"psr-0": {
-			"Bitsnbolts\\Feed": "src/"
-		}
-	},
-	"extra": {
-		"laravel": {
-			"providers": [
-				"Bitsnbolts\\Feed\\FeedServiceProvider"
-			],
-			"aliases": {
+    "illuminate/support": "^10.0",
+    "illuminate/filesystem": "^10.0"
+  },
+  "require-dev": {
+    "laravel/framework": "^10.0",
+    "phpunit/phpunit": "^10.0",
+    "orchestra/testbench-core": "^8.5.9"
+  },
+  "autoload": {
+    "psr-0": {
+      "Bitsnbolts\\Feed": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bitsnbolts\\Feed\\FeedServiceProvider"
+      ],
+      "aliases": {
         "Feed": "Bitsnbolts\\Feed\\Feed"
       }
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
